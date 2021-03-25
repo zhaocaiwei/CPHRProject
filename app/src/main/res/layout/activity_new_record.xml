@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".NewRecord">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:id="@+id/have_persistent_headache_or_not"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0"
+            android:text="Persistent Headache"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/help_persistent_headache"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="0"
+            android:background="@android:color/transparent"
+            android:src="@drawable/selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/ph_intensity_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Intensity:"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/click_me_foreground"/>
+
+        <TextView
+            android:id="@+id/ph_intensity_measurement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="24dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/ph_duration_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Duration:"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/click_me_foreground"/>
+
+        <TextView
+            android:id="@+id/ph_duration_measurement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="24dp"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/have_debilitating_headache_or_not"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0"
+            android:text="Debilitating Headache"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/help_Debilitating_headache"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="0"
+            android:background="@android:color/transparent"
+            android:src="@drawable/selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/dh_intensity_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Intensity:"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/click_me_foreground" />
+
+        <TextView
+            android:id="@+id/dh_intensity_measurement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="24dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/dh_duration_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Duration:"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/click_me_foreground"/>
+
+        <TextView
+            android:id="@+id/dh_duration_measurement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="24dp"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/dh_interference_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Interference:"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/click_me_foreground"/>
+
+        <TextView
+            android:id="@+id/dh_interference_measurement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="24dp"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>

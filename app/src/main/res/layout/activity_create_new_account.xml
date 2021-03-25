@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ForgotPassword"
+android:orientation="vertical">
+
+<EditText
+    android:id="@+id/register_subject_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    android:ems="10"
+    android:hint="Subject ID"
+    android:textSize="24dp" />
+
+<EditText
+    android:id="@+id/register_email_address"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    android:ems="10"
+    android:hint="Email Address"
+    android:textSize="24dp" />
+
+<EditText
+    android:id="@+id/register_new_password"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    android:ems="10"
+    android:hint="New Password"
+    android:textSize="24dp" />
+
+<EditText
+    android:id="@+id/register_reenter_password"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    android:ems="10"
+    android:hint="Reenter Password"
+    android:textSize="24dp" />
+
+<Button
+    android:id="@+id/button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    android:text="Create Account"
+    android:textSize="24dp"/>
+
+
+</LinearLayout>
